@@ -1,0 +1,43 @@
+<header class="py-8 px-4 mx-auto max-w-xl lg:py-16">
+  <div class="mx-auto text-center mb-8 lg:mb-16">
+    <h2 class="mb-11 text-opacity-55 tracking-tight font-extrabold">
+      Estas en un error de ruta, verifica si la ruta que hayas puesto este bien
+      escrita o verifica que el boton en cual hayas oprimido tenga una
+      funcionalidad. Si es el caso de que la ruta esta bien y no hay problema,
+      esta ruta esta aun en mantenimiento o no tiene contenido aun. Espero
+      haberte ayudado.
+    </h2>
+    <p class="font-light text-gray-500 sm:text-xl dark:text-gray-400">
+      Si deseas regresar a la pagina principal oprime este boton
+    </p>
+  </div>
+  <nav
+    class="flex flex-col items-center justify-center w-full text-center md:flex-row"
+  >
+    <a
+      href="/"
+      class="flex-row justify-center text-white cursor-pointer hover:bg-sky-600 focus:ring-4 focus:outline-none focus:ring-[#1da1f2]/50 font-medium rounded-lg px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#1da1f2]/55 mr-2 mb-2 hover:shadow-lg transition-all duration-200 ease-in-out hover:scale-110 scale-90 gap-x-2 opacity-90 hover:opacity-100"
+      >Home</a
+    >
+  </nav>
+</header>
+
+<style is:global>
+  :root {
+    --accent: 136, 58, 234;
+    --accent-light: 224, 204, 250;
+    --accent-dark: 49, 10, 101;
+    --accent-gradient: linear-gradient(
+      45deg,
+      rgb(var(--accent)),
+      rgb(var(--accent-light)) 30%,
+      white 60%
+    );
+  }
+  html {
+    font-family: system-ui, sans-serif;
+    background: #13151a;
+    background-size: 224px;
+    color-scheme: dark light;
+  }
+</style>
